@@ -1,0 +1,83 @@
+GLPSOL: GLPK LP/MIP Solver, v4.65
+Parameter(s) specified in the command line:
+ --model problem.mod
+Reading model section from problem.mod...
+Reading data section from problem.mod...
+69 lines were read
+Generating first...
+Generating second...
+Generating third...
+Generating obj...
+Model has been successfully generated
+GLPK Integer Optimizer, v4.65
+16 rows, 45 columns, 144 non-zeros
+45 integer variables, all of which are binary
+Preprocessing...
+14 rows, 36 columns, 72 non-zeros
+36 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 14
+Solving LP relaxation...
+GLPK Simplex Optimizer, v4.65
+14 rows, 36 columns, 72 non-zeros
+      0: obj =   1.500000000e+01 inf =   3.000e+00 (2)
+      6: obj =   1.200000000e+01 inf =   0.000e+00 (0)
+*    16: obj =   7.000000000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++    16: mip =     not found yet >=              -inf        (1; 0)
++    16: >>>>>   7.000000000e+00 >=   7.000000000e+00   0.0% (1; 0)
++    16: mip =   7.000000000e+00 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.2 Mb (199976 bytes)
+result: a A 1 1
+result: a A 2 0
+result: a A 3 0
+result: a B 1 0
+result: a B 2 0
+result: a B 3 0
+result: a C 1 0
+result: a C 2 0
+result: a C 3 0
+result: b A 1 0
+result: b A 2 1
+result: b A 3 0
+result: b B 1 0
+result: b B 2 0
+result: b B 3 0
+result: b C 1 0
+result: b C 2 0
+result: b C 3 0
+result: c A 1 0
+result: c A 2 0
+result: c A 3 0
+result: c B 1 1
+result: c B 2 0
+result: c B 3 0
+result: c C 1 0
+result: c C 2 0
+result: c C 3 0
+result: d A 1 0
+result: d A 2 0
+result: d A 3 0
+result: d B 1 0
+result: d B 2 1
+result: d B 3 0
+result: d C 1 0
+result: d C 2 0
+result: d C 3 0
+result: e A 1 0
+result: e A 2 0
+result: e A 3 0
+result: e B 1 0
+result: e B 2 0
+result: e B 3 0
+result: e C 1 1
+result: e C 2 0
+result: e C 3 0
+Model has been successfully processed
